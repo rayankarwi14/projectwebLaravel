@@ -50,8 +50,8 @@
                       <li></li>
                       <li></li>
 
-                      <li><a href="cart.html">Cart</a></li>
-                      <li><a href="checkout.html">Checkout</a></li>
+                      <li><a href="{{route('card')}}">Cart</a></li>
+                      <li><a href="{{route('checkout')}}">Checkout</a></li>
                     </ul>
                   </nav>
            

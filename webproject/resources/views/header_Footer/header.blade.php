@@ -60,37 +60,37 @@
           <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="{{route('acc')}}" class="nav-link">Accueil</a>
               </li>
 
               <li class="nav-item">
-                <a href="menu.html" class="nav-link">Montres hommes</a>
+                <a href="{{route('product')}}" class="nav-link">Montres hommes</a>
               </li>
 
               <li class="nav-item">
-                <a href="menu.html" class="nav-link">Montres femmes</a>
+                <a href="{{route('product')}}" class="nav-link">Montres femmes</a>
               </li>
 
               <li class="nav-item">
-                <a href="menu.html" class="nav-link">Bijoux hommes</a>
+                <a href="{{route('product')}}" class="nav-link">Bijoux hommes</a>
               </li>
 
               <li class="nav-item">
-                <a href="menu.html" class="nav-link">Bijoux femmes</a>
+                <a href="{{route('product')}}" class="nav-link">Bijoux femmes</a>
               </li>
 
               <li class="nav-item">
-                <a href="menu.html" class="nav-link">Nos marques</a>
+                <a href="{{route('product')}}" class="nav-link">Nos marques</a>
               </li>
 
               <li class="nav-item">
-                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="{{route('blog')}}" class="nav-link">Blog</a>
               </li>
               <li class="nav-item">
-                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="{{route('contact')}}" class="nav-link">Contact</a>
               </li>
               <li class="nav-item">
-             <a href="cart.html" class="nav-link"> <img src="img\core-img\cart.png" ></a>
+             <a href="{{route('card')}}" class="nav-link"> <img src="img\core-img\cart.png" ></a>
             </li>
             </ul>
           </div>
