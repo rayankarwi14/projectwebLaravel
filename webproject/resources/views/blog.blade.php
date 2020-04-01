@@ -34,7 +34,8 @@
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
               <a
-                href="blog-single.html"
+                
+                href="{{route('blog_single')}}"
                 class="block-20"
                 style="background-image: url('images/diamant-1.jpg');"
               >

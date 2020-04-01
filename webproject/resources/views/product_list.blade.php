@@ -45,22 +45,30 @@
 	            
 	            <div class="tab-content" id="v-pills-tabContent">
 
-	              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="day-1-tab">
+	              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="day-1-tab" >
 	              	<div class="row no-gutters d-flex align-items-stretch">
 					        	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
-					              <div class="menu-img img" style="background-image: url(images/montreCuire1.jpg);"></div>
+								  <div class="menu-img img" style="background-image: url(images/montreCuire1.jpg);">
+									   
+								 </div>
+								 
 					              <div class="text d-flex align-items-center">
-													<div>
-						              	<div class="d-flex">
-							                <div class="one-half">
-							                  <h3>Montre Cuire Marron</h3>
-							                </div>
-							                <div class="one-forth">
+								    	<div>
+						                	<div class="d-flex">
+							                  <div class="one-half">
+												<a
+                
+												href="{{route('product_detail')}}">
+					
+												<h3>Montre Cuire Marron</h3></a>
+												
+							                  </div>
+							                  <div class="one-forth">
 							                  <span class="price">$29</span>
 							                </div>
 							              </div>
-							              <p><span>xxxx</span>, <span>oooo</span>, <span>cccc</span>, <span>dddd</span></p>
+							              <p><span>xxxx</span>, <span>oooo</span>, <span>cccckkkkkk</span>, <span>dddd</span></p>
 							              <p><a href="#" class="btn btn-primary">Ajouter au panier</a></p>
 						              </div>
 					              </div>
@@ -196,16 +204,18 @@
 							                  <span class="price">$29</span>
 							                </div>
 							              </div>
-							              <p><span>xxxx</span>, <span>oooo</span>, <span>cccc</span>, <span>dddd</span></p>
+							              <p><span>xxxx</span>, <span>oooo</span>, <span>cccckkkk</span>, <span>dddd</span></p>
 							              <p><a href="#" class="btn btn-primary">Ajouter au panier</a></p>
 						              </div>
 					              </div>
 					            </div>
 					        	</div>
 					        </div>
-	              </div>
+							
+						</div>
 
-	              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-day-2-tab">
+				  
+						<div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-day-2-tab">
 	              	<div class="row no-gutters d-flex align-items-stretch">
 					        	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
