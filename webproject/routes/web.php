@@ -17,11 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 })->name("acc");
 
-Route::get('/product_list', function () {
-    return view('product_list');
-})->name("product");
+Route::get('/product_list', 'ControllerProduit@index')->name("product");
 
-Route::get('/', function () {
+Route::get('/blog', function () {
     return view('blog');
 })->name("blog");
 

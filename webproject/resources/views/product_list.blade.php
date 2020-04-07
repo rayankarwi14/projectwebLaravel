@@ -45,13 +45,16 @@
 	            
 	            <div class="tab-content" id="v-pills-tabContent">
 
-	              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="day-1-tab" >
+	             <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="day-1-tab" >
 	              	<div class="row no-gutters d-flex align-items-stretch">
-					        	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+						        
+									
+								@foreach ($products as $product)
+								
+
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
-								  <div class="menu-img img" style="background-image: url(images/montreCuire1.jpg);">
-									   
-								 </div>
+								  <div class="menu-img img" style="background-image: url(images/montreCuire1.jpg);"></div>
 								 
 					              <div class="text d-flex align-items-center">
 								    	<div>
@@ -61,19 +64,23 @@
                 
 												href="{{route('product_detail')}}">
 					
-												<h3>Montre Cuire Marron</h3></a>
+												<h3>{{ $product->nameproduct }}</h3></a>
 												
 							                  </div>
 							                  <div class="one-forth">
-							                  <span class="price">$29</span>
+							                  <span class="price">{{ $product->prix }}</span>
 							                </div>
 							              </div>
-							              <p><span>xxxx</span>, <span>oooo</span>, <span>cccckkkkkk</span>, <span>dddd</span></p>
 							              <p><a href="#" class="btn btn-primary">Ajouter au panier</a></p>
 						              </div>
 					              </div>
 					            </div>
-					        	</div>
+								</div>
+
+
+								@endforeach
+								
+							
 					        	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
 					              <div class="menu-img img" style="background-image: url(images/montreCuire2.jpg);"></div>
@@ -216,7 +223,7 @@
 
 				  
 						<div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-day-2-tab">
-	              	<div class="row no-gutters d-flex align-items-stretch">
+	              	 <div class="row no-gutters d-flex align-items-stretch">
 					        	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
 					              <div class="menu-img img" style="background-image: url(images/montre-cuir-8.jpg);"></div>
