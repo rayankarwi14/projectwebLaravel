@@ -21,7 +21,7 @@ Route::get('/product_list', function () {
     return view('product_list');
 })->name("product");
 
-Route::get('/blog', function () {
+Route::get('/', function () {
     return view('blog');
 })->name("blog");
 
