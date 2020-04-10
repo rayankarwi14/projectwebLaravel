@@ -14,8 +14,10 @@ class ControllerProduit extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        $products = Produit::inRandomOrder()->take(8)->get();
+    {   /** to get all table */
+        $products = Produit::all();
+        /** to get just 8 elm from  table */
+        /**$products = Produit::inRandomOrder()->take(8)->get();*/
 
         return view('product_list')->with('products',$products);
     }

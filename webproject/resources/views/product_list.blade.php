@@ -54,8 +54,9 @@
 
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
-								  <div class="menu-img img" style="background-image: url(images/montreCuire1.jpg);"></div>
-								 
+								 <!-- <div class="menu-img img" style="background-image: {{  URL::asset($product->image1)}};"></div>-->
+								  <img class="menu-img img" src="{{  URL::asset($product->image1)}}" alt="img">
+								  
 					              <div class="text d-flex align-items-center">
 								    	<div>
 						                	<div class="d-flex">
@@ -81,7 +82,7 @@
 								@endforeach
 								
 							
-					        	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+					        	<!--<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
 					              <div class="menu-img img" style="background-image: url(images/montreCuire2.jpg);"></div>
 					              <div class="text d-flex align-items-center">
@@ -217,7 +218,7 @@
 					              </div>
 					            </div>
 					        	</div>
-					        </div>
+					        </div>-->
 							
 						</div>
 
