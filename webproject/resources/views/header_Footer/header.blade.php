@@ -39,12 +39,12 @@
       <!-- END TOP nav -->
 
       <!-- DUB nav -->
-      <nav
+      <nav 
         class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
         id="ftco-navbar"
       >
         <div class="container">
-          <a class="navbar-brand">BIJOUTERIE</a>
+          <a class="navbar-brand" >BIJOUTERIE</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -64,23 +64,23 @@
               </li>
 
               <li class="nav-item">
-                <a href="{{route('product')}}" class="nav-link">Montres hommes</a>
+                <a href="{{route('product')}}" class="nav-link">Montres.hommes</a>
               </li>
 
               <li class="nav-item">
-                <a href="{{route('product')}}" class="nav-link">Montres femmes</a>
+                <a href="{{route('product')}}" class="nav-link">Montres.femmes</a>
               </li>
 
               <li class="nav-item">
-                <a href="{{route('product')}}" class="nav-link">Bijoux hommes</a>
+                <a href="{{route('product')}}" class="nav-link">Bijoux.hommes</a>
               </li>
 
               <li class="nav-item">
-                <a href="{{route('product')}}" class="nav-link">Bijoux femmes</a>
+                <a href="{{route('product')}}" class="nav-link">Bijoux.femmes</a>
               </li>
 
               <li class="nav-item">
-                <a href="{{route('product')}}" class="nav-link">Nos marques</a>
+                <a href="{{route('product')}}" class="nav-link">Nos.marques</a>
               </li>
 
               <li class="nav-item">

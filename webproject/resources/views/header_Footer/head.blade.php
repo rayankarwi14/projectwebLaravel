@@ -32,3 +32,4 @@
         <link rel="stylesheet" href="{{ URL::asset('css/flaticon.css')}}" type="text/css"/>
         <link rel="stylesheet" href="{{ URL::asset('css/icomoon.css')}}" type="text/css"/>
         <link rel="stylesheet" href="{{ URL::asset('css/style.css')}}" type="text/css"/>
+        

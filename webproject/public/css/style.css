@@ -4435,6 +4435,7 @@ input[type="button"].btn-block {
 }
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+  
 }
 .nav-tabs .nav-link {
   border: 1px solid transparent;
@@ -4477,6 +4478,7 @@ input[type="button"].btn-block {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   text-align: center;
+  
 }
 
 .nav-justified .nav-item {
@@ -4486,6 +4488,7 @@ input[type="button"].btn-block {
   -ms-flex-positive: 1;
   flex-grow: 1;
   text-align: center;
+  
 }
 
 .tab-content > .tab-pane {
@@ -4511,6 +4514,7 @@ input[type="button"].btn-block {
   justify-content: space-between;
   padding: 0.5rem 1rem;
 }
+
 .navbar > .container,
 .navbar > .container-fluid {
   display: -webkit-box;
