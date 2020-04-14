@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('/product_list', 'ControllerProduit@index')->name('product');
 
-Route::get('/product_list/product_detail/{id}', 'ControllerProduit@show')->name("product_detail");
+Route::get('/product_list/product_detail/{product_id}', 'ControllerProduit@show')->name("product_detail");
 
 
 

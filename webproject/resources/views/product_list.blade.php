@@ -63,7 +63,7 @@
 							                  <div class="one-half">
 												<a
                 
-												href="{{route('product_detail')}}">
+												href="{{route('product_detail',['product_id'=>$product->id])}}">
 					
 												<h3>{{ $product->nameproduct }}</h3></a>
 												
