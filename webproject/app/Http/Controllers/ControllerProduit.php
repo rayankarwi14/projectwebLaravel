@@ -13,14 +13,30 @@ class ControllerProduit extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+
+     //affichage de la liste des produit 
     public function index()
     {   /** to get all table */
         $products = Produit::all();
-        /** to get just 8 elm from  table */
-        /**$products = Produit::inRandomOrder()->take(8)->get();*/
-
         return view('product_list')->with('products',$products);
     }
+    /**
+     * Display a listing of the resource.
 
+      * @return \Illuminate\Http\Response
+     */
+
+     
+
+      // affichage de detai des produit 
+      public function show($id){
+
+       $products = Produit::where("id",$id)->first();
+       return view('product_detail')->with("products",$products);
+    }
     
 }
+
+
+

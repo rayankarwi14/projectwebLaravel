@@ -176,9 +176,9 @@
                           <!-- Product Meta Data -->
                           <div class="product-meta-data">
                             <div class="line"></div>
-                            <p class="product-price">$180</p>
+                            <p class="product-price"> {{ $products->prix }} </p>
                             <a href="product_detail.html">
-                              <h6>White Modern Chair</h6>
+                              <h6>{{ $products->nameproduct }}</h6>
                             </a>
                             <!-- Ratings & Review -->
                             <div
@@ -203,11 +203,8 @@
 
                           <div class="short_overview my-5">
                             <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit. Aliquid quae eveniet culpa
-                              officia quidem mollitia impedit iste asperiores
-                              nisi reprehenderit consequatur, autem, nostrum
-                              pariatur enim?
+                              {{ $products->description }}
+                              
                             </p>
                           </div>
 
